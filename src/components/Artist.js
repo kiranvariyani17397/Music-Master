@@ -4,7 +4,7 @@ class Artist extends Component {
   render() {
     console.log("artist", this.props.artist);
 
-    return <div>Artist</div>;
+    return <div>{this.props.artist}</div>;
   }
 }
 
